@@ -1,0 +1,183 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styles */
+  
+  header {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 1rem;
+  }
+  
+  nav a {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  /* Hero Section Styles */
+  
+  #hero {
+    background-image: url('https://image.isu.pub/181013210617-3d1c219b5a8e0314d048b6aaea42b4d2/jpg/page_1_thumb_large.jpg');
+    background-size: 100%;
+    color: solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 400px;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  #hero h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  #hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .btn {
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 0.5rem;
+    color: #333;
+    display: inline-block;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* About Section Styles */
+  
+  #about {
+    background-color: #f2f2f2;
+    padding: 2rem;
+  }
+  
+  #about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  #about p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+  }
+
+
+  #Objective {
+    background-color: #f2f2f2;
+    padding: 2rem;
+  }
+  
+  #Objective h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  #Objective p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+  }
+  
+  /* Products Section Styles */
+  
+  #products {
+    padding: 2rem;
+  }
+  
+  #products h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .product {
+    background-color: #f2f2f2;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    margin-bottom: 2rem;
+    overflow: hidden;
+  }
+  
+  .product img {
+    width: 100%;
+  }
+  
+  .product h3 {
+    background-color: #333;
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 1rem;
+  }
+  
+  .product p {
+    font-size: 1.2rem;
+    margin: 1rem;
+  }
+  
+  /* Contact Section Styles */
+  
+  #contact {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem;
+  }
+  
+  #contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  #contact p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  form label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 0.5
+}
+  
